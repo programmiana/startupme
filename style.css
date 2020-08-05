@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+nav {margin: 0;
+padding: 0;}
+
+.hero{
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+background-image: url(/src/assets/bg-header.jpg);
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh
+}
+
+.navList, li {
+    list-style: none;
+}
+
+.navMenu {
+    display: flex;
+    flex-flow: row;
+}
+
+navbar {
+    width: 100%;
+    position: fixed;
+}
